@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image:url(./india.png);
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+  
+}
+
+nav{
+    word-spacing: 40px;
+    color: black;
+    position: relative;
+    left: 800px;
+    top:20px;  
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+img{
+    height: 50px;
+    width:50px;
+    margin: 10px 0 0 10px;
+    position: relative;
+    top:10px;
+    left:110px;
+    
+}
+i{
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin-top:20px;
+    justify-content:space-evenly;
+}
+
+.india{
+    margin-top: 110px;
+    color: white;
+}
+
+.ind{
+    font-size:5em;
+    font-weight: bold;
+    /* color: white; */
+}
+
+.ind1{
+    /* color: white; */
+    line-height: 25px;   
+    font-size: 1vw;
+}
+
+.explore{
+    height: 30px;
+    width:140px;
+    padding: 1px;
+    text-align: center;
+    border-radius: 40px;
+    background-color: black;
+}
+
+.cards{
+    width: 210px;
+    height: 240px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+    padding: 10px;
+    line-height: 23px;
+    color: black;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.cards:hover{
+    transform: translateY(-5px);
+}
+
+h4{
+    font-weight: bolder;
+}
+.card1{
+    background-image: url(./east.png);
+}
+
+.card2{
+    background-image:url(./west.png);
+}
+
+.card3{
+    background-image: url(./north.png);
+}
+
+.card4{
+    background-image: url(./south.png);
+} 
+
+.resign{
+    font-weight:bolder;
+}
+
+.resign1{
+    font-size: smaller;
+}
+
+.explore{
+    height: 20px;
+    width:110px;
+    padding: 5px;
+    margin-top: 0;
+    font-size: 1.2em;
+    cursor: pointer;
+
+   }
+
+@media screen and (max-width:870px) {
+    body{
+        background-repeat:contain;
+    }
+    nav{
+        word-spacing: 40px;
+        color: black;
+        font-size: small;
+        position: relative;
+        left: 350px;
+        top:10px;
+      
+    }
+
+    img{
+        height: 25px;
+        width: 25px;
+        position: relative;
+        top:4px;
+        left:70px;  
+    }
+
+    .india{
+        margin: 0 0 10px 2px;
+
+    }
+
+    .ind{
+        font-size:larger;
+        font-weight: bold;
+    }
+    .container{
+    display: flex;
+    flex-direction: column;
+    margin-left:70px;
+    margin-top: 6px;
+   
+   } 
+
+   .ind1{
+       line-height:15px;
+       font-size: small;
+       margin-top: 0;
+  }
+
+   .explore{
+    height: 20px;
+    width:110px;
+    padding:3px;
+    margin-top: 0;
+    cursor: pointer;
+
+   }
+   .cards{
+    width: 400px;
+    height: 150px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    font-size:small;
+    padding:2px 0 0 15px;
+    line-height: 20px;
+  
+}
+}
